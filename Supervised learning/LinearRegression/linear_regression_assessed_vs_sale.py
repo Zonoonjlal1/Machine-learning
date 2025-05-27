@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 # ============================================================
 
 # Define file path and columns of interest
-file_path = r'E:\Machine learning\Supervised learning\LinearRegression\Model training data\Real Estate Sales 2001-2022.csv'
+file_path = r'G:\My Drive\تاهيل وتدريب\الذكاء الاصطناعي\Model training data\Real Estate Sales 2001-2022.csv'
 columns_needed = ['Assessed Value', 'Sale Amount']
 
 # Read dataset and filter relevant columns

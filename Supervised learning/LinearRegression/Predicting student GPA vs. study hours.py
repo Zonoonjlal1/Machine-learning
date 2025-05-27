@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 # ============================================================
 #                 Loading and Exploring the Dataset
 # ============================================================
-dataset = pd.read_csv(r'E:\Machine learning\Supervised learning\LinearRegression\Model training data\student_scores.csv')
+dataset = pd.read_csv(r'G:\My Drive\تاهيل وتدريب\الذكاء الاصطناعي\Model training data\student_scores.csv')
 
 # Preview the first and last few rows of the dataset
 print(dataset.head())
