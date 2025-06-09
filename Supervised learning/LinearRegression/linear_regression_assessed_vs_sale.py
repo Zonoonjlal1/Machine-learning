@@ -69,7 +69,7 @@ Dataset_clean.plot(
     color='blue',
     linewidth=2
 )
-plt.show()
+#plt.show()
 
 # ============================================================
 #                  Data Preparation for Modeling
@@ -102,7 +102,7 @@ df1 = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
 df1.head(25).plot(kind='bar', figsize=(16, 10))
 plt.grid(which='major', linestyle='--', color='green')
 plt.grid(which='minor', linestyle=':', color='black')
-plt.show()
+#plt.show()
 
 # ============================================================
 #                  Model Evaluation Metrics

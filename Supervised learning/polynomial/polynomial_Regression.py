@@ -59,7 +59,7 @@ plt.scatter(x, y, color='blue', label='Original Data')
 plt.plot(x, lin2.predict(poly.fit_transform(x)), color='red', label='Polynomial Regression')
 
 # Plot training data separately for clarity
-plt.scatter(x_train, y_train, color='b', label='Training Data')
+plt.scatter(x_train, y_train, color='y', label='Training Data')
 
 # Add titles and labels
 plt.title('Polynomial Regression')
@@ -68,7 +68,7 @@ plt.ylabel('Pressure')
 plt.legend()
 
 # Uncomment to display the plot
-# plt.show()
+plt.show()
 
 # ===============================
 # Model Evaluation on Test Set

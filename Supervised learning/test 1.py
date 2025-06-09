@@ -38,6 +38,7 @@ y_prod = liner.predict(x_train)
 zain = 110
 zain = np.array([[zain]])
 test = liner2.predict(poly.fit_transform(zain))
+print(test)
 #print("Predicted value for zain (200) using Polynomial Regression:", test)
 detcted = PolynomialFeatures(4)
 detcted_lin = LinearRegression()
