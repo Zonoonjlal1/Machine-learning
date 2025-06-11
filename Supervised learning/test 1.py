@@ -45,4 +45,4 @@ detcted_lin = LinearRegression()
 detcted_lin.fit(detcted.fit_transform(x),y)
 dx = detcted_lin.predict(detcted.fit_transform(x))
 print(mean_squared_error(y,dx))
-
+plt.show()

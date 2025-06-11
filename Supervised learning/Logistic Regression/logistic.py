@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
@@ -56,7 +55,6 @@ plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.tight_layout()
-plt.show()
 
 # === Plot ROC Curve === #
 fpr, tpr, thresholds = roc_curve(y_test, y_proba_test)
