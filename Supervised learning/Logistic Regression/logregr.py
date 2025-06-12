@@ -85,7 +85,7 @@ plt.show()
 # ========================
 fpr, tpr, thresholds = roc_curve(y_test, y_pred_proba)
 
-plt.figure(figsize=(8, 4))
+plt.figure(figsize=(10,6))
 plt.plot(fpr, tpr, label=f'ROC Curve (AUC = {roc_auc:.2f})', color='blue')
 plt.plot([0, 1], [0, 1], 'k--', label='Random Guess')
 plt.xlabel('False Positive Rate')
